@@ -14,10 +14,10 @@ const CACHED_PERSONS_LIST = "CACHED_PERSONS_LIST";
 
 /// TODO const file
 
-class PersonDataSourceImpl implements PersonLocalDataSource {
+class PersonLocalDataSourceImpl implements PersonLocalDataSource {
   final SharedPreferences sharedPreferences;
 
-  PersonDataSourceImpl({@required this.sharedPreferences});
+  PersonLocalDataSourceImpl({@required this.sharedPreferences});
 
   @override
   Future<List<PersonModel>> getLastPersonsFromCache() {
