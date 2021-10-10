@@ -28,7 +28,7 @@ class App extends StatelessWidget {
         title: 'Rick and Morty',
         theme: ThemeData.dark().copyWith(
           backgroundColor: AppColors.mainBackground,
-          scaffoldBackgroundColor: AppColors.greyColor,
+          scaffoldBackgroundColor: AppColors.mainBackground,
         ),
         home: HomePage(),
       ),
