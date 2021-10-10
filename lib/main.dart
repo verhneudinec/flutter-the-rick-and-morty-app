@@ -26,6 +26,7 @@ class App extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Rick and Morty',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData.dark().copyWith(
           backgroundColor: AppColors.mainBackground,
           scaffoldBackgroundColor: AppColors.mainBackground,
